@@ -4,3 +4,7 @@
 # 
 # 4
 
+days_in_a_regular_year=365
+number_of_weeks_in_a_year=52
+remainder = days_in_a_regular_year.to_i % number_of_weeks_in_a_year.to_i
+p remainder
